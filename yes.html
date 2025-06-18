@@ -1,0 +1,61 @@
+import "tailwindcss";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Instructions</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Cute Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Caveat', cursive;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-blue-200 to-blue-900 min-h-screen p-6 text-white flex items-center justify-center">
+
+  <div class="max-w-xl w-full bg-white bg-opacity-90 text-blue-900 rounded-xl shadow-lg p-6 space-y-4 text-center">
+    
+    <h1 class="text-4xl text-red-600 font-bold drop-shadow-md">Yippeeeeyyyy! You're my Valentine now! 💖</h1>
+
+    <img src="assests\y.gif"
+         alt="Cute GIF"
+         class=" w-80 mx-auto rounded-lg ">
+
+    <div class="text-left space-y-2">
+      <h2 class="text-2xl font-bold">Game Instructions:</h2>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+        <li>Our player is a cute penguin (ifykyk 😉).</li>
+        <li>The goal is to collect hearts throughout the game.</li>
+        <li>You have to collect <strong>30 hearts</strong> to win! ❤️</li>
+        <li>
+          Use the following keys to control the penguin:
+          <ul class="list-disc list-inside ml-6">
+            <li><strong>A</strong> - Move Left</li>
+            <li><strong>D</strong> - Move Right</li>
+            <li><strong>W</strong> - Jump Up</li>
+          </ul>
+        </li>
+        <li>All the best! 💕</li>
+      </ul>
+    </div>
+
+    <button onclick="startGame()"
+            class="mt-4 bg-blue-900 hover:bg-blue-700 text-white font-bold text-lg px-6 py-2 rounded transition duration-300">
+      Start Game
+    </button>
+  </div>
+
+  <script>
+    function startGame() {
+      window.location.href = "game.html"; // Update if needed
+    }
+  </script>
+</body>
+</html>
