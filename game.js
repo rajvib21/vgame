@@ -1,17 +1,17 @@
 const platformImg = new Image();
-platformImg.src = 'assests/platform1.png';
+platformImg.src = 'platform1.png';
 
 const bgImg = new Image();
-bgImg.src = 'assests/grumpy.png';
+bgImg.src = 'grumpy.png';
 
 const winBgImg = new Image();
-winBgImg.src = 'assests/sunshine.png';
+winBgImg.src = 'sunshine.png';
 
 const playerImg = new Image();
-playerImg.src = 'assests/peng.png';
+playerImg.src = 'peng.png';
 
 const heartImg = new Image();
-heartImg.src = 'assests/heart.png';
+heartImg.src = 'heart.png';
 
 
 
